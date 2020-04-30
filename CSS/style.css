@@ -4,113 +4,17 @@
   box-sizing: border-box;
 }
 body {
+  background-image: url(../image/header.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: bottom;
   background-color: #c3e6fc;
 }
-/*
-nav {
-  width: 80%;
-  height: 2.2em;
-  background: #5e5e5e;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 6em;
-  border-radius: 1;
-  position: relative;
-}
-ul li {
-  display: inline-block;
-  list-style: none;
+main {
+
+
 }
 
-#apple a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 500%;
-  height: 2.2em;
-}
-#store a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 11%;
-  height: 2.2em;
-  position: absolute;
-  left: 6.4em;
-  top: 0;
-}
-#mac a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 10%;
-  height: 2.2em;
-  position: absolute;
-  left: 14em;
-  top: 0;
-}
-#ipod a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 10%;
-  height: 2.2em;
-  position: absolute;
-  left: 21em;
-  top: 0;
-}
-#iphone a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 10%;
-  height: 2.2em;
-  position: absolute;
-  left: 28em;
-  top: 0;
-}
-#ipad a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 10%;
-  height: 2.2em;
-  position: absolute;
-  left: 35em;
-  top: 0;
-}
-#itunes a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 10%;
-  height: 2.2em;
-  position: absolute;
-  left: 42em;
-  top: 0;
-}
-#support a {
-  display: inline-block;
-  border-right: 2px solid #696969;
-  background: #5e5e5e;
-  text-align: center;
-  width: 10%;
-  float:left;
-}
-span  {
-  display: inline-block;
-  color: #F0F8FF;
-  font-size: 15px;
-  line-height: 2.2em;
-}
-*/
 input[type=text] {
   width: 10%;
   height: 2px;
@@ -151,9 +55,10 @@ input[type=text] {
 }
 
 div.topnav{
- width: 70%;
+ width: 80%;
  height: 2.2em;
  background: #5e5e5e;
+  background: linear-gradient(#5e5e5e, #5e5e5e);
  margin-left: auto;
  margin-right: auto;
  margin-top: 6em;
@@ -232,15 +137,32 @@ aside {
   padding: 0;
   background: #FFFFFF;
 }
-
-img {
+div.img1 {
   display: inline-block;
-  overflow: hidden;
   cursor: pointer;
   width: 312px;
   height: 200px;
-  vertical-align: middle;
 }
+div.img2 {
+  display: inline-block;
+  cursor: pointer;
+  width: 312px;
+  height: 200px;
+}
+div.img3 {
+  display: inline-block;
+  cursor: pointer;
+  width: 312px;
+  height: 200px;
+}
+div.img4 {
+  display: inline-block;
+  cursor: pointer;
+  width: 312px;
+  height: 200px;
+}
+
+
 footer {
   background: #FFFFFF;
   width: 100%;
