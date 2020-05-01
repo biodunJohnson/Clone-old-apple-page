@@ -14,7 +14,7 @@ This project was clone of old Apple page.
 
 ## Live Demo
 
-[Live Demo Link](https://raw.githack.com/biodunJohnson/Clone-old-apple-page/new-feature/index.html)
+[Live Demo Link](https://raw.githack.com/biodunJohnson/Clone-old-apple-page/master/index.html)
 
 
 ## Getting Started
@@ -24,7 +24,7 @@ This project was clone of old Apple page.
 To get a local copy up and running follow these simple example steps.
 
 
-### Download Repository (https://github.com/biodunJohnson/Clone-old-apple-page/tree/new-feature )
+### Download Repository (https://github.com/biodunJohnson/Clone-old-apple-page )
 
 
 ## Authors
